@@ -6,17 +6,21 @@ With knowledge of machine learning and neural networks, I used the features in t
 Data Preprocessing
 
 1. What variable(s) are the target(s) for your model?
+   IS_SUCCESSFUL
 
 2. What variable(s) are the features for your model?
+   APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AMT,
 
 3. What variable(s) should be removed from the input data because they are neither targets nor features?
-
+   EIN, NAME
+   
 Compiling, Training, and Evaluating the Model
 
-1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-2. Were you able to achieve the target model performance?
+5. Were you able to achieve the target model performance?
 
-3. What steps did you take in your attempts to increase model performance?
-
-4. Overall evaluation of the model? 
+6. What steps did you take in your attempts to increase model performance?
+   ADDED EXTRA HIDDEN LAYER, ADDED DROP OUT LAYERS, DECREASED THE CUT OFF FOR THE BINNING OF COLUMN 'CLASSIFICATION', INCREASED NEURONS, CHANGED TEST/TRAIN SPLIT.
+   
+7. Overall evaluation of the model? 
